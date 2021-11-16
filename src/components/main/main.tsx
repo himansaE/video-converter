@@ -122,7 +122,7 @@ export default class Main extends Component<MainPageProps, MainPageState> {
     return (
       <div className="main-page">
         <header className="App-header">
-          <h1 className="main-head">Online Video Converter</h1>
+          <h1 className="main-head">Online Video Info</h1>
         </header>
         <div className="drop_con">
           <label
