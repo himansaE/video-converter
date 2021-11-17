@@ -15,5 +15,3 @@ async function Ffmpeg() {
   return _ffmpeg;
 }
 export default Ffmpeg;
-
-//ffmpeg.exe -i "https://rts-vod-amd.../ww/hls/..m3u8" -scodec srt output_subs.srt

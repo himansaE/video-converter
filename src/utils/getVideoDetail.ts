@@ -127,7 +127,7 @@ function parse_result(res: string[]) {
             if (!/^\s{4}/.test(res[i])) break;
             if (file["tags"] === undefined) file["tags"] = {};
             let encoder = /^\s{4}([\w\s]*)\s*:\s*(.+)$/.exec(res[i]);
-            if (encoder) file["tags"][encoder[1]] = encoder[2];
+            if (encoder) file["tags"][encoder[1].trim()] = encoder[2];
           }
         }
         let duration =
